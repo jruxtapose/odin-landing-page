@@ -53,19 +53,16 @@ a {
     width: 90%;
     display: flex;
     justify-content: space-between;
-
 }
 
 .image {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgrey;
-    width: 400px;
-    height: 200px;
-    margin-left: 25px;
+    width: 50%;
+    /* margin-left: 25px; */
     box-sizing: border-box;
-    flex-shrink: 0;
+    flex: 1;
 }
 
 .hero-text {
@@ -73,6 +70,8 @@ a {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 50%;
+    flex: 1;
 }
 
 .hero-text h1 {
@@ -116,6 +115,9 @@ button {
     display: flex;
     gap: 50px;
     /* justify-content: center; */
+    flex-wrap: wrap;
+    justify-items: center;
+    align-content: center;
 }
 
 .illustration-information {
@@ -129,6 +131,11 @@ button {
     width: 150px;
     border: 3px solid #3882F6;
     border-radius: 5px;
+}
+
+.illustration img{
+    height: 150px;
+    width: 150px;
 }
 
 .information {
